@@ -1,0 +1,85 @@
+.nintendo-ds-bios {
+  font-family: 'Nintendo DS BIOS', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.bg {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.my-content {
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'Nintendo DS BIOS', sans-serif;
+  font-size: 24px;
+  margin: 0;
+  color: white;
+  /* color: rgb(214, 122, 127); */
+}
+
+.textbox {
+  margin-top: 24px;
+}
+
+.category-title {
+  color: green;
+  padding: 0;
+  margin-bottom: 2px;
+  color: cyan;
+}
+
+.contact {
+  color: blue;
+}
+
+p, label, input {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  /* line-height: 100%; */
+}
+
+.clickable {
+  cursor: pointer;
+  user-select: none;
+  text-decoration: underline;
+}
+
+.full-width {
+  min-width: 100%;
+}
+
+.collapsable:hover {
+  background-color: gray;
+  color: yellow;
+}
+
+input.clickable {
+  display:none;
+}
+
+input.clickable:checked + div {
+  transition:opacity ease 0.3s;
+}
+
+input.clickable:not(:checked) + div {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+b {
+  color: white;
+}
+
+.boring-text {
+  color: grey;
+}
