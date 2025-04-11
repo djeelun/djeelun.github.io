@@ -36,7 +36,7 @@ h1 {
   color: cyan;
 }
 
-.contact {
+a:link, a:active, a:visited {
   color: blue;
 }
 
@@ -44,6 +44,7 @@ p, label, input {
   padding: 0;
   margin: 0;
   font-size: 24px;
+  color: white;
   /* line-height: 100%; */
 }
 

@@ -1,0 +1,11 @@
+.char0 { color: white; }
+.char1 { color: red; }
+.char2 { color: green; }
+
+.tree {
+  color: green;
+  margin: 0;
+  padding: 0;
+  line-height: 30%;
+  font-size: 24px;
+}
